@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: dbt-protos
-  version: "1.0.317"
+  version: "1.0.330"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/dbt_protos-${{ version }}.tar.gz
-  sha256: 52fcc17859b2b190d7a0a62b7c84b19c34ab108bfcf8caa5fb0f137fd76b8c0a
+  sha256: a8532e3617fbc949c3b0a907e6bda39862973be9451a2bb1b46e1ad8f2ada9e9
 
 build:
   number: 0
@@ -39,7 +39,7 @@ about:
   summary: Public proto bindings for dbt
   homepage: https://github.com/dbt-labs/proto-python-public
   description: |
-       Public proto bindings for dbt.
+    Public proto bindings for dbt.
   repository: https://github.com/dbt-labs/proto-python-public
   documentation: https://github.com/dbt-labs/proto-python-public/blob/main/README.md
   license: Apache-2.0
