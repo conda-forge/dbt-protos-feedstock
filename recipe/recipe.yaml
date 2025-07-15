@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: dbt-protos
-  version: "1.0.337"
+  version: "1.0.339"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/dbt_protos-${{ version }}.tar.gz
-  sha256: bed47c23406b6b3113bf069165870e6d99cd93a6f99064af780e35f7df5d4cd2
+  sha256: 6955a84f515fb06c0bd68e381122aefc3d9ff11beb97f36f67ea54fcddf120de
 
 build:
   number: 0
