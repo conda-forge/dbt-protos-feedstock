@@ -14,7 +14,7 @@ source:
   sha256: 03e036eb93537d3055cfb0dd8c7d2c61991ee1c2c2f30d3c143d6bb91faf796b
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -47,4 +47,5 @@ about:
 
 extra:
   recipe-maintainers:
+    - conda-forge/dbt
     - rxm7706
